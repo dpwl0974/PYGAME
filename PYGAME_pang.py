@@ -18,14 +18,14 @@ clock = pygame.time.Clock()
 
 # 1. 사용자 게임 초기화 (배경 화면, 게임 이미지, 배경 음악, 좌표, 속도, 폰트 등)
 current_path = os.path.dirname(__file__) # 현재 파일의 위치 반환
-image_path = os.path.join(current_path, "images") # images 폴더 위치 반환
+image_path = os.path.join(current_path, "images & music") # images 폴더 위치 반환
 
 # 배경 만들기
 background = pygame.image.load(os.path.join(image_path, "background.png"))
 
 #배경 음악 삽입하기
 current_path = os.path.dirname(__file__) # 현재 파일의 위치 반환
-image_path = os.path.join(current_path, "images") 
+image_path = os.path.join(current_path, "images & music") 
 pygame.init()
 pygame.mixer.init()
 pygame.mixer.music.load(os.path.join(image_path, "Fun.mp3"))
