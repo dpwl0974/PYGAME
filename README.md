@@ -2,7 +2,7 @@
 ![PYGAME display](https://user-images.githubusercontent.com/67728547/86342438-93415180-bc92-11ea-8098-39307ed5df4b.jpg)
 [게임 실행 방법]
 1. <바탕화면>에 PYGAME폴더 생성하기
-2. PYGAME_pang과 images & music 을 PYGAME 안에 저장하기
+2. images & music 을 PYGAME 폴더 안에 파일 이름을 [images & music]로 지정하고 그 안에 저장하기
 3. PYGAME_pang 파일을 우클릭해서 IDLE을 통해 열기
 4. F5를 눌러서 실행하기
 
